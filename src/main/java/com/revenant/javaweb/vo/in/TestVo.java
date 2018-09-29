@@ -1,7 +1,10 @@
-package com.revenant.javaweb.vo;
+package com.revenant.javaweb.vo.in;
 
 import lombok.Data;
 
+/*
+ * 前端数据的返回
+ * */
 @Data
 public class TestVo {
     private Long id;

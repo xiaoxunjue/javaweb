@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.revenant.javaweb.mapper.GirlMapper">
 
-    <select id="findUserInfo" resultType="com.revenant.javaweb.vo.TestVo" >
+    <select id="findUserInfo" resultType="com.revenant.javaweb.vo.in.TestVo" >
             SELECT
                 u.id,
                 u.userName,
@@ -14,7 +14,7 @@
                 users u
             LEFT JOIN girl g ON g.id = u.girl_id
     </select>
-<select id="findaUserInfo" resultType="com.revenant.javaweb.vo.TestVo">
+<select id="findaUserInfo" resultType="com.revenant.javaweb.vo.in.TestVo">
     SELECT
 	u.id,
 	u.userName,

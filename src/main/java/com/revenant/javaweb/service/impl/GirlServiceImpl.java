@@ -5,8 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.revenant.javaweb.mapper.GirlMapper;
 import com.revenant.javaweb.pojo.Girl;
 import com.revenant.javaweb.service.GirlService;
-import com.revenant.javaweb.vo.TestVo;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.revenant.javaweb.vo.in.TestVo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

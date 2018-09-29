@@ -2,7 +2,7 @@ package com.revenant.javaweb.service;
 
 import com.github.pagehelper.PageInfo;
 import com.revenant.javaweb.pojo.Girl;
-import com.revenant.javaweb.vo.TestVo;
+import com.revenant.javaweb.vo.in.TestVo;
 
 import java.util.List;
 
