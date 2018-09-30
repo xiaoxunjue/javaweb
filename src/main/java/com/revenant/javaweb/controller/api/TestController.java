@@ -69,8 +69,8 @@ public class TestController {
     }
 
     @PostMapping("/selecctByName")
-    public Result selecctByIds(String name) {
-        return ResultUtil.success(girlService.selecctByIds(name));
+    public Result selecctByIds(String girlname) {
+        return ResultUtil.success(girlService.selecctByIds(girlname));
     }
 
     @PostMapping("/selecctByNameAndAge")
