@@ -16,6 +16,7 @@ public interface GirlService {
     Girl selectById(Girl girlId);
 
     int daletegirl(Girl girlId);
+    /**/
 
     List<Girl> selecctByIds(String name);
 
