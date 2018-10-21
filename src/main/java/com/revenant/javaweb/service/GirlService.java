@@ -18,9 +18,17 @@ public interface GirlService {
     int daletegirl(Girl girlId);
     /**/
 
+    /*
+     *
+     * 这是测试的
+     * */
+    /*
+     *
+     * 这是测试的二
+     * */
     List<Girl> selecctByIds(String name);
 
-    List<Girl> selecctByIds(String name,int age);
+    List<Girl> selecctByIds(String name, int age);
 
     List<TestVo> list();
 
